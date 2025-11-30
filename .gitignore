@@ -1,0 +1,74 @@
+# .gitignore for Oil-Sales Marketeers project
+# Keep local environment files, caches, and editor metadata out of Git
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+__env__/
+*.env
+
+# Specific workspace virtual env created in this project
+oil_sales_analysis_env/
+
+# Jupyter / IPython
+.ipynb_checkpoints
+.profile_default/
+.ipython/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs, databases, and caches
+*.log
+*.sqlite3
+*.db
+*.bak
+*.tmp
+.cache/
+.pytest_cache/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+coverage.xml
+.coverage
+htmlcov/
+
+# Crash reports
+*.stackdump
+
+# Secrets and config
+.env
+secrets.yml
+credentials.json
+
+# Large data / outputs — do not ignore by default, only if you want to keep dataset private
+# Uncomment if you prefer to keep CSV or data folders out of the repository
+# data/
+# *.csv
+
+# Misc
+*.pem
+*.key
+
+# Recommended: keep requirements and README in repository
+requirements.txt
+README.md
