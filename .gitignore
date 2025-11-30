@@ -70,5 +70,6 @@ credentials.json
 *.key
 
 # Recommended: keep requirements and README in repository
-requirements.txt
-README.md
+# (these used to be ignored here; the repository should include README and requirements)
+# requirements.txt
+# README.md

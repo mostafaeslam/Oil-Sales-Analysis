@@ -1,0 +1,25 @@
+# Requirements for oil_sales_analysis.ipynb
+# Pinned versions reflect a tested environment. Adjust versions if you run into conflicts.
+
+# Core data & analysis
+pandas==1.5.3
+numpy==1.24.3
+matplotlib==3.7.1
+seaborn==0.12.2
+scikit-learn==1.2.2
+
+# Notebook / interactive
+jupyter==1.0.0
+ipykernel==6.19.2
+notebook==6.5.4
+
+# (visualizations, widgets)
+plotly==5.9.0
+ipywidgets==8.0.4
+
+
+
+# To install:
+#   python -m venv env
+#   env\scripts\activate
+#   pip install -r requirements.txt
